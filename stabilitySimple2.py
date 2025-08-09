@@ -1,3 +1,5 @@
+# Code for stability
+
 #%% # Stability map for partially cracked ammonia combustion in a counterflow diffusion flame
 import cantera as ct
 import numpy as np
