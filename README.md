@@ -12,6 +12,8 @@ This repository contains scripts, notebooks, and data for a one-dimensional nume
 - `results/` – Generated figures, plots, and summary CSV/XLSX outputs.
   - `results/no_emission/` – NO/NOx sweeps and plots.
 
+Example output files include `results/figures/*.png` and `results/no_emission/summary_results*.csv`.
+
 ## How to run (high-level)
 
 Most scripts are standalone and expect Cantera plus standard scientific Python packages (NumPy, Pandas, Matplotlib). Typical usage:
