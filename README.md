@@ -19,12 +19,12 @@ Example output files include `results/figures/*.png` and `results/no_emission/su
 Most scripts are standalone and expect Cantera plus standard scientific Python packages (NumPy, Pandas, Matplotlib). Typical usage:
 
 ```bash
-python /home/runner/work/TA/TA/scripts/PCAwithMaxT.py
-python /home/runner/work/TA/TA/scripts/ROPtest.py
-python /home/runner/work/TA/TA/scripts/no_emission/ROPtestFinal.py
+python scripts/PCAwithMaxT.py
+python scripts/ROPtest.py
+python scripts/no_emission/ROPtestFinal.py
 ```
 
-Notebooks in `/home/runner/work/TA/TA/notebooks` can be run in Jupyter after confirming the `mechanisms/`, `data/`, and `results/` paths.
+Notebooks in `notebooks/` can be run in Jupyter after confirming the `mechanisms/`, `data/`, and `results/` paths.
 
 ## Notes
 
