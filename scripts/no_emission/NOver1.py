@@ -31,7 +31,7 @@ def net_stoich_coeffs(gas, k):
 
 #%% ---------- Flame builder ----------
 def run_flame(crack_frac, fuel_vel, air_vel,
-              mech="mechanisms/reactionsokafar_no_emission.yaml", width=0.002):
+              mech="mechanisms/reactionsokafar.yaml", width=0.002):
     gas   = ct.Solution(mech)
     flame = ct.CounterflowDiffusionFlame(gas, width=width)
     flame.P, flame.energy_enabled = ct.one_atm, True

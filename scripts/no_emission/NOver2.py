@@ -11,7 +11,7 @@ import os
 # Burner geometry
 domain_width = 2e-3  # 2 mm
 # Kinetics mechanism file
-kinetics_file = 'mechanisms/reactionsokafar_no_emission.yaml'
+kinetics_file = 'mechanisms/reactionsokafar.yaml'
 
 # Parameter sweep conditions
 testing_conditions = [

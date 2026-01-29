@@ -26,7 +26,7 @@ plt.switch_backend("Agg")
 #%% ---------------------------------------------------------------------------
 # User settings
 # ---------------------------------------------------------------------------
-MECH           = "mechanisms/reactionsokafar_no_emission.yaml"
+MECH           = "mechanisms/reactionsokafar.yaml"
 P_ATM          = ct.one_atm
 T_FUEL         = 300.0  # K
 T_AIR          = 300.0  # K

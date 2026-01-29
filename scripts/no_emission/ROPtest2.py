@@ -26,7 +26,7 @@ plt.switch_backend("Agg")
 #%% ---------------------------------------------------------------------------
 # User‑editable sweep settings
 # ---------------------------------------------------------------------------
-MECH = "mechanisms/reactionsokafar_no_emission.yaml"
+MECH = "mechanisms/reactionsokafar.yaml"
 P_ATM = ct.one_atm
 T_FUEL = 300.0  # K
 T_AIR  = 300.0  # K
@@ -179,7 +179,7 @@ def run_single_flame_and_analyze_rop(
 
     # ------------------------------------------------------------------
     # 4.  Generate two quick plots (net ROP & mole‑fraction) – identical
-    #     filenames but under results/no_emission/figures_multi_case_rop/
+    #     filenames but under results/no_emission/figures/
     # ------------------------------------------------------------------
     plot_colors = [
         "blue", "green", "purple", "orange", "brown", "pink", "gray", "olive", "cyan"
